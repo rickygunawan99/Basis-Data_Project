@@ -1,0 +1,27 @@
+{
+    "name": "project/test-project-bd",
+    "description": "test project BD",
+    "type": "project",
+    "authors": [
+        {
+            "name": "rickygunawan99",
+            "email": "rickygunawan266@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHP\\MVC\\" : "app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PHP\\MVC\\" : "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "9.5.5"
+    }
+}
